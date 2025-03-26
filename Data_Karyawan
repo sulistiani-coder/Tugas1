@@ -1,0 +1,14 @@
+print("             DATA KARYAWAN             ")
+print("..............................................................................")
+karyawan1 = ("Lori Febriady", "Manager Pendidikan", 19500000, "Menikah")
+karyawan2 = ("Firman Haris", "Programmer-Junior", 7000000, "Belum Menikah")
+karyawan3 = ("Sulistiani Marzu", "Graphic Designer", 10000000, "Belum Menikah")
+
+data_karyawan = [karyawan1, karyawan2, karyawan3]
+for i, karyawan in enumerate(data_karyawan):
+    print(f"Karyawan {i+1} :")
+    print(f"     Nama     : {karyawan[0]}")
+    print(f"     Jabatan  : {karyawan[1]}")
+    print(f"     Gaji        : {karyawan[2]}")
+    print(f"     Status    : {karyawan[3]}")
+    print("..............................................................................")
